@@ -4,6 +4,8 @@
     <title>three.js webgl - glTF loader</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+    <!-- 引入样式 -->
+    <link rel="stylesheet" href="./js/element-ui/index.css">
     <style>
         body {
             font-family: Monospace;
@@ -32,11 +34,20 @@
 </head>
 
 <body>
-<div id="info">
-    <a href="http://threejs.org" target="_blank" rel="noopener">three.js</a> - GLTFLoader<br/>
-    Battle Damaged Sci-fi Helmet by
-    <a href="https://sketchfab.com/theblueturtle_" target="_blank" rel="noopener">theblueturtle_</a><br/>
-</div>
+<div id="info"></div>
+<el-container>
+    <el-aside>
+
+    </el-aside>
+    <el-main>
+
+    </el-main>
+</el-container>
+
+<!-- import Vue before Element -->
+<script src="./js/vue/vue.js"></script>
+<!-- 引入组件库 -->
+<script src="./js/element-ui/index.js"></script>
 
 <script src="./js/three.js"></script>
 
@@ -159,14 +170,14 @@
 
         // model
         var loader = new THREE.GLTFLoader();
-        loader.load('./models/gltf/sphere/glTF2_Principled.gltf', function (gltf) {
+        loader.load('./models/gltf/luggage/untitled.gltf', function (gltf) {
 
             gltf.scene.traverse(function (child) {
 
                 if (child.isMesh) {
                     if (child.material.isMeshStandardMaterial)
                         child.material.envMap = envMap;
-                        console.log('isstandard');
+                    console.log('isstandard');
                 }
 
             });
