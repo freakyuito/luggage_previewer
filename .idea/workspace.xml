@@ -2,11 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fdcf9d92-fd76-4851-a8ed-80f4f5c01c85" name="Default Changelist" comment="1.0">
-      <change beforePath="$PROJECT_DIR$/luggage_model/luggage.blend" beforeDir="false" afterPath="$PROJECT_DIR$/luggage_model/luggage.blend" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/luggage_model/luggage.blend1" beforeDir="false" afterPath="$PROJECT_DIR$/luggage_model/luggage.blend1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/luggage_model/luggage.obj" beforeDir="false" afterPath="$PROJECT_DIR$/luggage_model/luggage.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/gltf/luggage/untitled.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/gltf/luggage/untitled.gltf" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/webgl_loader_gltf.html" beforeDir="false" afterPath="$PROJECT_DIR$/webgl_loader_gltf.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -59,19 +54,39 @@
     <session id="-2014368273">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="1" />
           <entry key="project.open.time.7" value="1" />
           <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="js" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JavaScript" value="1" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/webgl_loader_gltf.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="393">
-              <caret line="172" column="51" selection-start-line="172" selection-start-column="51" selection-end-line="172" selection-end-column="51" />
+            <state relative-caret-position="-161">
+              <caret line="37" column="14" lean-forward="true" selection-start-line="37" selection-start-column="14" selection-end-line="37" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/js/Detector.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="160">
+              <caret line="67" column="4" selection-start-line="67" selection-start-column="4" selection-end-line="67" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -228,7 +243,7 @@
       <updated>1535610069715</updated>
       <workItem from="1535610072299" duration="97000" />
       <workItem from="1535610190006" duration="4821000" />
-      <workItem from="1535892182312" duration="565000" />
+      <workItem from="1535892182312" duration="1412000" />
     </task>
     <task id="LOCAL-00001" summary="1.0">
       <created>1535610869798</created>
@@ -255,7 +270,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5483000" />
+    <option name="totallyTimeSpent" value="6330000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -322,8 +337,15 @@
     <entry file="file://$PROJECT_DIR$/models/gltf/luggage/untitled.gltf" />
     <entry file="file://$PROJECT_DIR$/webgl_loader_gltf.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="393">
-          <caret line="172" column="51" selection-start-line="172" selection-start-column="51" selection-end-line="172" selection-end-column="51" />
+        <state relative-caret-position="-161">
+          <caret line="37" column="14" lean-forward="true" selection-start-line="37" selection-start-column="14" selection-end-line="37" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/Detector.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="67" column="4" selection-start-line="67" selection-start-column="4" selection-end-line="67" selection-end-column="4" />
         </state>
       </provider>
     </entry>
